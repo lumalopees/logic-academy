@@ -3,42 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .destaque {
-        background-color: yellow;
-    }
-  </style>
   <title>BrinClasses</title>
 </head>
 
 <body>
   <ul>
-    <h1>&#128151 Pack fim de semana &#128151</h1>
+    <h1>&#128526 Sabadou &#128526 </h1>
+    <li class="item">Dormiu até tardou?</li>
+    <li class="item">Se não, cochilou?</li>
+    <li class="item">Bebou?</li>
+    <li class="item">Ih, trabalhou?</li>
+    <li class="item">Se sim, pelo menos foi alcolizadou?</li>
+    <li class="item">Aí sim, feshow!</li>
     <br>
-    <li class="item">Musiquinha</li>
-    <li class="item">Álcool da sua prefêrencia</li>
-    <li class="item">Uma comidinha gostosa</li>
-    <li class="item">Relembrar das razões que é bom estar vivo</li>
+    <button> Add class </button>
+    <button> Remove class </button>
   </ul>
-  <button id="addClass">Add class</button>
-  <button id="removeClass">Remove class</button>
- 
- <script>
-    const addButton = document.getElementById('addClass');
-    const removeButton = document.getElementById('removeClass');
-    const itensList = document.querySelectorAll('.item');
-
-    addButton.addEventListener('click', function() {
-      itensList.forEach(item => {
-        item.classList.add('destaque');
-      });
-    });
-
-    removeButton.addEventListener('click', function() {
-      itensList.forEach(item => {
-        item.classList.remove('destaque');
-      });
-    });
-  </script>
 </body>
 </html>
