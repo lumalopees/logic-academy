@@ -28,20 +28,17 @@
     const removeButton = document.getElementById('removeClass');
     const itensList = document.querySelectorAll('.item');
 
-    function addClass () {
-      itensList.forEach (item => {
-        item.classList.add ('destaque')
+    addButton.addEventListener('click', function() {
+      itensList.forEach(item => {
+        item.classList.add('destaque');
       });
-    }
+    });
 
-    function removeClass () {
-      itensList.forEach (item => {
-        item.classList.remove ('destaque')
+    removeButton.addEventListener('click', function() {
+      itensList.forEach(item => {
+        item.classList.remove('destaque');
       });
-    }
-
-    addClass.addEventListener('clicker', addClass);
-    removeClass.addEventListener('clicker', removeClass);
+    });
   </script>
 </body>
 </html>
