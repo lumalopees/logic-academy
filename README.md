@@ -33,4 +33,10 @@
 
                     addButon.addEventListener('click', function() {
 
-                    Segundo:
+                    Segundo: chamar sua varável, de novo. desta vez, a variavel que engloba os itens da lista. Adicione a funcionalidade que .forEach, que fará que cada item dentro daquela variavel seja percorrido (cada uma das classes nomeadas 'item', lembra?) e ainda defina um acontecimento a isso através do (), alimentando com o arrow ao dizer que para cada ITEM ele vai fazer ALGUMA COISA.
+
+                    itensList.forEach(item => {
+
+                    Terceiro: está dizendo que para CADA ITEM, ele vai fazer alguma coisa. E essa coisa é: utilizando a funcionalidade .classList (para deixar claro que se trata de uma lista de classes), ele vai .add (adicionar) algo (), no caso, 'destaque'.
+
+                    item.classList.add('destaque');

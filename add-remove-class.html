@@ -27,9 +27,15 @@
 
     addButon.addEventListener('click', function() {
       itensList.forEach(item => {
-        
-      })
-    })
+        item.classList.add('destaque');
+      });
+    });
+
+    removeButton.addEventListener('click', function() {
+      itensList.forEach(item => {
+        item.classList.remove('destaque');
+      });
+    });
   </script>
 </body>
 </html>
