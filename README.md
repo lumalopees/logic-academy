@@ -21,7 +21,10 @@
 
                 Mexer no HTML e CSS. Tag BUTTON. Criar duas, um para adicionar e outro para remover. É bom criar de uma vez uma ID para cada um, já que lendo o pedido todo, você sabe que irá precisar utilizar estes botões de algum modo. 
 
-    Use o JavaScript para selecionar os botões e adicionar ou remover uma classe de um item da lista quando os botões forem clicados.
+                  <button id="addClass"> Add class </button>
+                  <button id="removeClass"> Remove class </button>
+
+    <!-- Use o JavaScript para selecionar os botões e adicionar ou remover uma classe de um item da lista quando os botões forem clicados. -->
 
                 Pedindo várias coisas. Na verdade três. Uma é selecionar os botões e a classe criada (CRIANDO A VARIAVEL), então outra é criar a função que realizará a troca de classes e, enfim, a terceira, essa função irá acontecer quando os botões forem clicados. 
 
@@ -40,3 +43,5 @@
                     Terceiro: está dizendo que para CADA ITEM, ele vai fazer alguma coisa. E essa coisa é: utilizando a funcionalidade .classList (para deixar claro que se trata de uma lista de classes), ele vai .add (adicionar) algo (), no caso, 'destaque'.
 
                     item.classList.add('destaque');
+    
+    

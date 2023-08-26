@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BrinClasses</title>
+  <style>
+    .destaque {
+        background-color: red;
+    }
+    .realce {
+        font-weight: bold;
+    }
+</style>
 </head>
 
 <body>
@@ -16,22 +24,21 @@
     <li class="item">Se sim, pelo menos foi alcolizadou?</li>
     <li class="item">Aí sim, feshow!</li>
     <br>
-    <button id="addButon"> Add class </button>
-    <button id="removeButton"> Remove class </button>
   </ul>
-
+  <button id="addClass"> Add class </button>
+  <button id="removeClass"> Remove class </button>
   <script>
     const itensList = document.querySelectorAll('.item');
     const addButon = document.getElementById('addClass');
     const removeButton = document.getElementById('removeClass');
 
-    addButon.addEventListener('click', function() {
+    addButon.addEventListener("click", function() {
       itensList.forEach(item => {
         item.classList.add('destaque');
       });
     });
 
-    removeButton.addEventListener('click', function() {
+    removeButton.addEventListener("click", function() {
       itensList.forEach(item => {
         item.classList.remove('destaque');
       });
