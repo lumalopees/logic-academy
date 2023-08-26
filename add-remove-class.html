@@ -16,8 +16,20 @@
     <li class="item">Se sim, pelo menos foi alcolizadou?</li>
     <li class="item">Aí sim, feshow!</li>
     <br>
-    <button> Add class </button>
-    <button> Remove class </button>
+    <button id="addButon"> Add class </button>
+    <button id="removeButton"> Remove class </button>
   </ul>
+
+  <script>
+    const itensList = document.querySelectorAll('.item');
+    const addButon = document.getElementById('addClass');
+    const removeButton = document.getElementById('removeClass');
+
+    addButon.addEventListener('click', function() {
+      itensList.forEach(item => {
+        
+      })
+    })
+  </script>
 </body>
 </html>

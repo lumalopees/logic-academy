@@ -13,12 +13,24 @@
      
                 Mexer no HTML. Tags UL e LI. Fácil. 
 
-    Adicione classes aos itens da lista.
+    <!-- Adicione classes aos itens da lista. -->
 
                 Mexer em CSS. Criar classe para cada um dos itens da lista. Uma classe em comum vai facilicar sua vida. 
 
-    Crie dois botões, um para adicionar uma classe e outro para remover uma classe.
+    <!-- Crie dois botões, um para adicionar uma classe e outro para remover uma classe. -->
 
                 Mexer no HTML e CSS. Tag BUTTON. Criar duas, um para adicionar e outro para remover. É bom criar de uma vez uma ID para cada um, já que lendo o pedido todo, você sabe que irá precisar utilizar estes botões de algum modo. 
 
     Use o JavaScript para selecionar os botões e adicionar ou remover uma classe de um item da lista quando os botões forem clicados.
+
+                Pedindo várias coisas. Na verdade três. Uma é selecionar os botões e a classe criada (CRIANDO A VARIAVEL), então outra é criar a função que realizará a troca de classes e, enfim, a terceira, essa função irá acontecer quando os botões forem clicados. 
+
+                Então, primeiro, selecionar os botões e classes: JS. Você criou classes, então vai nomear sua variável e juntar ela com o querySelector. Você criou IDs, então também vai juntar elas com .getElementByID. 
+
+                Segundo e teceiro: crie a função que irá construir a mágica e o evento que permitirá ela acontecer. Isso poupará dedos e fará tudo dentro de um só lugar. 
+                    
+                    Primeiro: chame sua variável E adiciona o evento nela que irá fazer ela funcionar quando algo especifico acontecer. Termine essa linha chamando a função (uma função genérica, apenas para indicar para a máquina que terá de ler uma função) e abra seu escopo.
+
+                    addButon.addEventListener('click', function() {
+
+                    Segundo:
