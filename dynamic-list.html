@@ -12,6 +12,24 @@
 
   </ul>
 
-  <script></script>
+  <script>
+    const inputNovoItem = document.getElementById('novoItem');
+    const botaoAdicionar = document.getElementById('adicionarItem')
+    const listaItens = document.getElementById('listaItens');
+
+    function adicionarItem() {
+      const valorNovoItem = inputNovoItem.value; 
+
+      if (valorNovoItem.trim() !== "") {
+        const novoItem = document.createElement('li');
+        novoItem.textContent = valorNovoItem;
+        listaItens.appendChild(novoItem);
+
+        inputNovoItem.value = "";
+      }
+    }
+
+    botaoAdicionar.addEventListener("click", adicionarItem);
+  </script>
 </body>
 </html>
